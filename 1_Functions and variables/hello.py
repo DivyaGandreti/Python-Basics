@@ -1,4 +1,4 @@
-"""
+
 print("hello world!")
 #function(arguments)
 
@@ -42,7 +42,6 @@ print(name.strip())
 print(name.strip().capitalize())
 print(name.strip().title())
 print(first.strip().title())
-"""
 
 def hello(to="world"):
     print("hello,", to)
