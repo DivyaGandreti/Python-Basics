@@ -4,11 +4,11 @@ name = input("what is your name?").strip()
 
 # if input is lastname, firtsname format
 
-#normal solution
-# if "," in name:
-#     last, first = name.split(", ")
-#     name = f"{first} {last}"
-#     print(f"hello, {name}")
+
+if "," in name:
+    last, first = name.split(", ")
+    name = f"{first} {last}"
+    print(f"hello, {name}")
 
 #regex solution
 if (matches := re.search("^(.+), *(.+)$", name)):

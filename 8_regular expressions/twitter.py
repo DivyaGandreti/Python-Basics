@@ -5,7 +5,7 @@ url = input("URL: ").strip()
 username = url.replace("https://twitter.com/", "")
 print(username)
 
-#re.sub(pattern, repl, string, count =0, flag =0)
+# Syntax: re.sub(pattern, repl, string, count =0, flag =0)
 
 username = re.sub("^(http(s)?://)?(www\.)?twitter\.com/", "", url)
 print(username)
